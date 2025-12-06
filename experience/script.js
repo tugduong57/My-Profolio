@@ -17,17 +17,17 @@ $(document).ready(function(){
     });
 });
 
-/* ===== SCROLL REVEAL ANIMATION ===== */
-const srtop = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 1000,
-    reset: true
-});
+// /* ===== SCROLL REVEAL ANIMATION ===== */
+// const srtop = ScrollReveal({
+//     origin: 'top',
+//     distance: '80px',
+//     duration: 1000,
+//     reset: true
+// });
 
-/* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline',{delay: 400});
-srtop.reveal('.experience .timeline .container',{interval: 400}); 
+// /* SCROLL EXPERIENCE */
+// srtop.reveal('.experience .timeline',{delay: 400});
+// srtop.reveal('.experience .timeline .container',{interval: 400}); 
 
 
 // Start of Tawk.to Live Chat
@@ -62,7 +62,7 @@ document.onkeydown = function(e) {
   }
 }
 
-document.addEventListener('visibilitychange',
+/* document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Experience | Portfolio Jigar Sable";
@@ -72,4 +72,5 @@ function(){
         document.title = "Come Back To Portfolio";
         $("#favicon").attr("href","/assets/images/favhand.png");
     }
-});
+ });
+ */
