@@ -71,7 +71,7 @@ $(document).ready(function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["frontend development", "backend development", "web designing", "android development", "web development", "ai engineering"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -118,7 +118,6 @@ function showProjects(projects) {
         <div class="desc">
           <p>${project.desc}</p>
           <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
@@ -133,16 +132,16 @@ function showProjects(projects) {
     });
     // <!-- tilt js effect ends -->
 
-    /* ===== SCROLL REVEAL ANIMATION ===== */
-    const srtop = ScrollReveal({
-        origin: 'top',
-        distance: '80px',
-        duration: 1000,
-        reset: true
-    });
+    // /* ===== SCROLL REVEAL ANIMATION ===== */
+    // const srtop = ScrollReveal({
+    //     origin: 'top',
+    //     distance: '80px',
+    //     duration: 1000,
+    //     reset: true
+    // });
 
-    /* SCROLL PROJECTS */
-    srtop.reveal('.work .box', { interval: 200 });
+    // /* SCROLL PROJECTS */
+    // srtop.reveal('.work .box', { interval: 200 });
 
 }
 
